@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div class="tela-inicial" style="display:block">
+   <img class=logo src="logo.png" alt="">
+    
+    <br />
+    
+    <button class="Iniciar">
+      Iniciar 
+    </button>
+  
+  </div>
+  
+  <div class="tela-pergunta" style ="display:none">
+    <img class=cerebro src="cerebro.png" alt="">
+
+    <div class="pergunta"></div>
+    <button class="botao-responder opcao0"></button>
+    <br />
+    <button class="botao-responder opcao1"></button>
+    <br />
+    <button class="botao-responder opcao2"></button>
+    <br />
+    <button class="botao-responder opcao3"></button>
+    
+  </div>
+  
+  <div class="tela-acertou" style ="display: none;">
+    <img class="acertou"src="acertou.png">
+  
+  </div>
+    
+  <div class="tela-errou" style = "display: none;">
+    <img class="errou" src="perdeu.png" alt= " " />
+    
+  </div>
+  
+  
+  <script src="logica.js"></script>
+</body>
