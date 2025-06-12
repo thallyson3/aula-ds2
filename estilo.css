@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.tela-inicial {
+  width: 100%;
+  height: 100vh;
+  background: royalblue;
+  text-align: center;
+}
+
+.logo {
+  
+ width: 60%;
+}
+
+.Iniciar {
+  background: blue;
+  font-size: 40px;
+  border: 8px solid darkblue;
+  margin-top: 120px;
+  color: yellow;
+  padding: 10px 20px 10px 20px;
+}
+
+.Iniciar:active{
+  
+  background: lightgray;
+  font-size: 40px;
+}
+
+.tela-pergunta {
+  width: 100%;
+  height:100vh;
+  background: royalblue;
+  text-align: center;
+}
+
+.cerebro {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+
+}
+
+.pergunta {
+  background: white;
+  width: 60%;
+  font-size: 25px;
+  padding: 30px 20px 30px 20px;
+  margin: 0 auto;
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+
+.botao-responder {
+  background: white;
+  padding: 10px 40px 10px 40px;
+  font-size: 25px;
+  border: none;
+  margin-top: 10px;
+}
+
+.botao-responder:active{
+  
+  background: lightgray;
+  font-size: 50px;
+}
+.tela-acertou {
+  width: 100%;
+  height: 100vh;
+  background: royalblue;
+  text-align: center;
+}
+.acertou {
+  width: 90%;
+  margin-top: 60%;
+}
+
+.tela-errou {
+  background: royalblue;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.errou {
+  width: 80%;
+  margin-top: 50%;
+  
+}
