@@ -50,6 +50,7 @@ telaInical = document.querySelector(".tela-inicial")
 telaPergunta = document.querySelector(".tela-pergunta")
 telaAcertou = document.querySelector(".tela-acertou")
 telaErrou = document.querySelector(".tela-errou")
+telaFinal = document.querySelector(".tela-final")
 
 btnIniciar = document .querySelector(".Iniciar")
 
@@ -66,11 +67,20 @@ perguntaAtual = 0
 
 telaAcertou.addEventListener("click", () => {
   telaAcertou.style.display = "none"
-  Iniciarjogo()
+  if (perguntaAtual == 4) {
+    mostarFinal()
+  } else {
+    Iniciarjogo()
+  }
   
 })
 telaErrou.addEventListener("click", () => {
   telaErrou.style.display = "none"
+  telaInical.style.display = "block"
+  perguntaAtual = 0
+})
+telaFinal.addEventListener("click", () => {
+  telaFinal.style.display = "none"
   telaInical.style.display = "block"
   perguntaAtual = 0
 })
@@ -152,5 +162,7 @@ function mostrarAcertou(){
 function mostrarErrou(){
   telaPergunta.style.display = "none"
   telaErrou.style.display = "block"
-  perguntaAtual--
+}
+function mostarFinal() {
+  telaFinal.style.display = "block"
 }

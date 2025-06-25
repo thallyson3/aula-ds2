@@ -9,7 +9,7 @@ body {
 .tela-inicial {
   width: 100%;
   height: 100vh;
-  background: royalblue;
+  background: red;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ body {
 .tela-pergunta {
   width: 100%;
   height:100vh;
-  background: royalblue;
+  background: red;
   text-align: center;
 }
 
@@ -74,16 +74,16 @@ body {
 .tela-acertou {
   width: 100%;
   height: 100vh;
-  background: royalblue;
+  background: red;
   text-align: center;
 }
 .acertou {
-  width: 90%;
-  margin-top: 60%;
+  width: 80%;
+  margin-top: 40%;
 }
 
 .tela-errou {
-  background: royalblue;
+  background: red;
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -92,5 +92,16 @@ body {
 .errou {
   width: 80%;
   margin-top: 50%;
+  
+}
+.tela-final {
+  background: red;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.final {
+  width: 70%;
+  margin-top: 30%;
   
 }
